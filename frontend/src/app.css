@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --sand-100: #fdf6e3;
+  --sand-200: #f5e6c8;
+  --sand-300: #e8d0a0;
+  --sand-400: #d4b483;
+  --sand-500: #c49a6c;
+  --sand-600: #a67c52;
+  --ember-400: #e85d04;
+  --ember-500: #dc2f02;
+  --ember-600: #9d0208;
+  --dusk-800: #1a0f0a;
+  --dusk-700: #2d1b0e;
+  --dusk-600: #3d2512;
+  --dusk-500: #5c3d1e;
+  --dusk-400: #7a5230;
+  --bone:      #f9f3e8;
+  --bone-dark: #ede0c8;
+  --text-primary:   #1a0f0a;
+  --text-secondary: #5c3d1e;
+  --text-muted:     #a67c52;
+  --glow-amber: 0 0 20px rgba(228,166,30,0.4);
+  --glow-ember: 0 0 20px rgba(232,93,4,0.5);
+  --shadow-card: 0 4px 24px rgba(26,15,10,0.12);
+  --shadow-lg:   0 12px 48px rgba(26,15,10,0.22);
+  --radius: .75rem;
+  --radius-sm: .4rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--sand-100);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+h1, h2, h3 { font-family: 'Cinzel', serif; letter-spacing: 0.03em; }
+img { max-width: 100%; display: block; }
+button, input, textarea, select { font-family: inherit; }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--sand-200); }
+::-webkit-scrollbar-thumb { background: var(--sand-400); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--sand-500); }
