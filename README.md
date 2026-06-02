@@ -1,8 +1,12 @@
 # 🏜️ Desert Vault – Backend Python (Práctica 2)
 
-Backend reescrito en **Python / FastAPI** que expone exactamente la misma API REST
-que el backend Node.js/Express original, permitiendo que el frontend **Svelte 5**
-funcione sin ningún cambio.
+Backend reescrito en **Python / FastAPI** que expone exactamente la misma API REST que el backend Node.js/Express original, permitiendo que el frontend **Svelte 5** funcione sin ningún cambio.
+
+---
+
+## Memoria del uso de Inteligencia Artificial
+Para esta práctica, he utilizado Claude AI para apoyarme en la reescritura del backend. He proporcionado a Claude el código original y le he pedido que me ayude a traducirlo a Python/FastAPI, manteniendo la misma estructura de endpoints y lógica de negocio.
+Toda la documentación se encuentra aquí: [Memoria de IA](./memoria_ia.md)
 
 ---
 
